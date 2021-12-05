@@ -7,9 +7,7 @@ int main(void){
     int current_number = 0;
     int sum = 0;
     while (current_number < 1000) {
-        if (current_number % 3 == 0) {
-            sum = sum + current_number;
-        } else if (current_number % 5 == 0){
+        if (current_number % 3 == 0 || current_number % 5 == 0) {
             sum = sum + current_number;
         }
         current_number ++;

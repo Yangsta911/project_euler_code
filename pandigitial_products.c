@@ -60,8 +60,7 @@ int is_pandigital(int factor_1, int current) {
     		}
     		num ++;
     	}
-    	int total = one_counter + two_counter + three_counter + four_counter + five_counter + six_counter + seven_counter + eight_counter + nine_counter;
-    	if (total == 9) {
+    	if (one_counter == 1 && two_counter == 1 && three_counter == 1 && four_counter == 1 && five_counter  == 1 && six_counter == 1 && seven_counter == 1 && eight_counter == 1 && nine_counter == 1) {
     	    return 1;
     	} else {
     	    return 0;
